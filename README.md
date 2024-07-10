@@ -16,10 +16,10 @@ How the Solution Works
 2. Form Submission: The form is submitted to the Index action of the TranslateController.
 3. Translation Logic: The controller creates a Translator object, sets the OriginalText, and calls the Translate method.
 4. Translation Method:
-    Prefix: Adds the prefix "UBCO".
-    Vowel Doubling: Doubles each vowel in the original text.
-    Consonant Shifting: Shifts each consonant to the next consonant in the alphabet.
-    Word Count: Appends the number of words in the original text.
+   - Prefix: Adds the prefix "UBCO".
+   - Vowel Doubling: Doubles each vowel in the original text.
+   - Consonant Shifting: Shifts each consonant to the next consonant in the alphabet.
+   - Word Count: Appends the number of words in the original text.
 5. Result Display: The translated text is passed to the view through ViewBag and displayed to the user.
 
 Technical Decisions
