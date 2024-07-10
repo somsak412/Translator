@@ -3,12 +3,12 @@ Text Translator
 Project Structure
 1. Project Name: TranslateASPMVC
 2. Model: Contains the logic for translation.
+   https://github.com/somsak412/Translator/blob/master/TranslateASPMVC/Models/Translator.cs
+  
+4. Controller: Handles user input and interacts with the model.
    https://github.com/somsak412/Translator/blob/master/TranslateASPMVC/Controllers/TranslateController.cs
 
-3. Controller: Handles user input and interacts with the model.
-   https://github.com/somsak412/Translator/blob/master/TranslateASPMVC/Models/Translator.cs
-
-4. View: Presents the user interface.
+5. View: Presents the user interface.
    https://github.com/somsak412/Translator/blob/master/TranslateASPMVC/Views/Translate/Index.cshtml
 
 How the Solution Works
