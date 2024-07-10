@@ -1,0 +1,30 @@
+﻿
+@{
+    ViewData["Title"] = "Text Translator";
+}
+
+
+<form method="post" action="/Translate/Index">
+    <div>
+        <label for="inputText">Enter text to translate:</label>
+    </div>
+    <div>
+        <textarea id="inputText" name="inputText" rows="6" cols="70"></textarea>
+    </div>
+    <div>
+        <input type="submit" value="Translate" />
+    </div>
+</form>
+
+
+@if (ViewBag.TranslatedText != null)
+{
+    <h3>Translated Text:</h3>
+    
+    <div>
+        <textarea id="TranslatedText" name="TranslatedText" rows="6" cols="70">@ViewBag.TranslatedText</textarea>
+    </div>
+}
+
+
+
