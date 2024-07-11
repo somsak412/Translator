@@ -1,8 +1,9 @@
 Text Translator
 
 Project Structure
-1. Project Name: TranslateASPMVC
-2. Model: Contains the logic for translation.
+1. Project Tools: Visual Studio
+2. Project Name: TranslateASPMVC
+3. Model: Contains the logic for translation.
    https://github.com/somsak412/Translator/blob/master/TranslateASPMVC/Models/Translator.cs
   
 4. Controller: Handles user input and interacts with the model.
